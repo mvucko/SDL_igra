@@ -1,8 +1,7 @@
 ﻿  game.cpp
-  input.cpp
-c:\users\misla\documents\github\sdl_igra\sdl_igra\input.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  input.h
-  main.cpp
-  Generating Code...
-Debug\input.obj : warning LNK4042: object specified more than once; extras ignored
+c:\users\misla\documents\github\sdl_igra\sdl_igra\game.cpp(61): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
   SDL_igra.vcxproj -> C:\Users\misla\Documents\GitHub\SDL_igra\SDL_igra\Debug\SDL_igra.exe
