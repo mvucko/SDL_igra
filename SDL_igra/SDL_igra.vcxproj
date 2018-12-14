@@ -129,6 +129,7 @@
     <ClCompile Include="graphics.cpp" />
     <ClCompile Include="input.cpp" />
     <ClCompile Include="input.h" />
+    <ClCompile Include="level.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="sprites.cpp" />
@@ -141,8 +142,13 @@
     <ClInclude Include="headers\game.h" />
     <ClInclude Include="headers\graphics.h" />
     <ClInclude Include="headers\input.h" />
+    <ClInclude Include="level.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="sprite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sprites\bg\plavo.png" />
+    <Image Include="sprites\lik.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
