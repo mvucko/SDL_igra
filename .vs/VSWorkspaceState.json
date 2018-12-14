@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SDL_igra",
+    "\\SDL_igra\\sprites"
   ],
-  "SelectedNode": "\\SDL_igra",
+  "SelectedNode": "\\SDL_igra\\sprites\\MyChar.png",
   "PreviewInSolutionExplorer": false
 }

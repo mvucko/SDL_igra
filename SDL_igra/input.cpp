@@ -1,4 +1,4 @@
-#include "input.h";
+#include "input.h"
 
 //klasa za input, prati sta je pritisnuto, pusteno, itd...
 

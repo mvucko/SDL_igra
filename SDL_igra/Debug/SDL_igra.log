@@ -1,7 +1,2 @@
-﻿  game.cpp
-c:\users\misla\documents\github\sdl_igra\sdl_igra\game.cpp(61): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
+﻿Debug\input.obj : warning LNK4042: object specified more than once; extras ignored
   SDL_igra.vcxproj -> C:\Users\misla\Documents\GitHub\SDL_igra\SDL_igra\Debug\SDL_igra.exe

@@ -4,7 +4,7 @@
 #include "input.h"
 #include <algorithm>
 
-//klasa za igru, vrti sve u krug dok radi; ako bude drugih loopova, ova je glavna
+
 
 
 namespace {
@@ -23,6 +23,7 @@ Game::~Game() {
 
 }
 
+//sve za igru, vrti sve u krug dok radi; ako bude drugih loopova, ova je glavna
 void Game::gameLoop() {
 
 	Graphics graphics;
