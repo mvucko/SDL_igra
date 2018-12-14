@@ -107,11 +107,14 @@ void AnimatedSprite::draw(Graphics &graphics, int x, int y) {
 	}
 
 }
+/*
+	void AnimatedSprite::animationDone(std::string currentAnimation) {
 
-void AnimatedSprite::animationDone(std::string currentAnimation) {
-
-}
+	}
 
 void AnimatedSprite::setupAnimations() {
 	this->addAnimation(3, 0, 0, "TrciLijevo", 16, 16, Vector2(0, 0));
+	this->addAnimation(3, 0, 16, "TrciDesno", 16, 16, Vector2(0, 0));
 }
+
+*/ //ovo se ne koristi vise. Mozda ce zatrebat za nesto xd.

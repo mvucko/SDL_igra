@@ -1,2 +1,4 @@
-﻿  graphics.cpp
+﻿  player.cpp
+c:\users\misla\documents\github\sdl_igra\sdl_igra\player.cpp(55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\misla\documents\github\sdl_igra\sdl_igra\player.cpp(62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   SDL_igra.vcxproj -> C:\Users\misla\Documents\GitHub\SDL_igra\SDL_igra\Debug\SDL_igra.exe
