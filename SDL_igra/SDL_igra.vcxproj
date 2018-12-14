@@ -124,6 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="animirani.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="graphics.cpp" />
     <ClCompile Include="input.cpp" />
@@ -132,6 +133,8 @@
     <ClCompile Include="sprites.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animirani.h" />
+    <ClInclude Include="globalne_var.h" />
     <ClInclude Include="graphics.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="headers\game.h" />

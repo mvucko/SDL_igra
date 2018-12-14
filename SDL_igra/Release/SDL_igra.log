@@ -1,2 +1,18 @@
-﻿Release\input.obj : warning LNK4042: object specified more than once; extras ignored
+﻿  animirani.cpp
+c:\users\misla\documents\github\sdl_igra\sdl_igra\animirani.cpp(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\misla\documents\github\sdl_igra\sdl_igra\animirani.cpp(98): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\misla\documents\github\sdl_igra\sdl_igra\animirani.cpp(99): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  game.cpp
+c:\users\misla\documents\github\sdl_igra\sdl_igra\game.cpp(67): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\misla\documents\github\sdl_igra\sdl_igra\game.cpp(86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  graphics.cpp
+  main.cpp
+  sprites.cpp
+c:\users\misla\documents\github\sdl_igra\sdl_igra\sprites.cpp(28): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+c:\users\misla\documents\github\sdl_igra\sdl_igra\sprites.cpp(28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Release\input.obj : warning LNK4042: object specified more than once; extras ignored
 LINK : fatal error LNK1561: entry point must be defined

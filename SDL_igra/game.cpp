@@ -30,6 +30,11 @@ void Game::gameLoop() {
 	Input input;
 	SDL_Event event;
 
+	this->_player = AnimatedSprite(graphics, "sprites/lik.png", 0, 0, 16, 16, 100, 100, 100);
+	this->_player.setupAnimations();
+	this->_player.playAnimation("TrciLijevo");
+
+
 	int LAST_UPDATE_TIME = SDL_GetTicks();
 
 	//tu pocinje petlja za igru
@@ -62,14 +67,22 @@ void Game::gameLoop() {
 		this->update(std::min(ELAPSED_TIME_MS, MAX_FRAME_TIME));
 		LAST_UPDATE_TIME = CURRENT_TIME_MS;
 
+		this->draw(graphics);
 	}
 }
 
 void Game::draw(Graphics &graphics) {
 
+	graphics.clear();
+
+	this->_player.draw(graphics, 100, 100);
+
+	graphics.flip();
 
 }
 
-void Game::update(float elapsedtime) {
+void Game::update(float elapsedTime) {
+	
+	this->_player.update(elapsedTime);
 
 }

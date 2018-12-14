@@ -3,6 +3,8 @@
 #define SPRITE_H
 #include <SDL.h>
 #include <string>
+
+
 class Graphics;
 
 class Sprite {
@@ -13,10 +15,10 @@ public:
 	virtual ~Sprite();
 	virtual void update();
 	void draw(Graphics &graphics, int x, int y);
-private:
+protected:
 	SDL_Rect _sourceRect;
 	SDL_Texture* _spriteSheet;
-
+private:
 	float _x, _y;
 };
 #endif // !SPRITE_H

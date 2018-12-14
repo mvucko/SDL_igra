@@ -1,2 +1,2 @@
-﻿Debug\input.obj : warning LNK4042: object specified more than once; extras ignored
+﻿  graphics.cpp
   SDL_igra.vcxproj -> C:\Users\misla\Documents\GitHub\SDL_igra\SDL_igra\Debug\SDL_igra.exe
